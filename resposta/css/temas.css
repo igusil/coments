@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    /*background-color: #454d6b;*/
+    /*background-color: rgba(8,44,70,.9);*/
+    background-color: #fff;
+    /*background-image: url("../imagens/banner-teste-1.png");*/
+    background-position: left -1300px;
+    background-position: right -1179px;
+    background-size: 400%;
+}
+
+h1{
+
+        /*background-color: #fff;*/
+        color: rgb(146, 214, 223);
+        background-image: url("../imagens/logo.png");
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 0px !important;
+        margin-bottom: 40px !important;
+        /*margin-left: 90px !important;*/
+        padding-bottom: 120px;
+        position: relative;
+        top: 20px;
+
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+#login {
+
+    /*text-align: center;*/
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    font-size: 15pt;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family: "Anek Telugu";
+
+}
+.card {
+
+    background-color: rgba(8, 44, 70, 0.705);
+   /* background-color: rgba(19, 19, 19, 0.3);*/
+    padding: 40px;
+    border-radius: 10px;
+    width:300px;
+    height: 350px;
+   /*width:280px*/
+   /*padding-top: 10px;*/
+
+}
+.card-header {
+
+    padding-bottom: 50px;
+    opacity: 0.9;
+    color:#fff;
+    text-align: center;
+
+}
+
+.card-header::after {
+
+    content: "";
+    width: 100px;
+    height: 5px;    
+    /*background-color: #fff;*/
+    background-color: #0195da;
+    display: block;
+    margin-top: -17px;
+    margin-left: 102px;
+    /*margin-left: -5;*/
+    border-radius: 35%;
+    align-items: center;
+
+}
+
+.card-content label {
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 1.0;
+    /*font-family: "Anek Telugu";*/
+    
+}
+
+.card-content-area {
+
+    display: flex;
+    flex-direction: column;
+    padding:10px 0; 
+
+}
+
+.card-content-area input {
+
+    font-size: 12pt;
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+
+
+}
+
+.card-footer {
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.card-footer .submit{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    /*background-color: #a13854;*/
+    background-color: #087eb4;
+    border:none;
+    border-radius: 10px;
+    color:#e1e1e1;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#testebaixo{
+    /*font-family: "Anek Telugu";*/
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: bold;
+    padding-top: 10px;
+    margin-top: 60px;
+    /*background-color: rgb(42, 132, 218);*/
+    background-color: #88d1f3bd;
+    height: 30px;
+    width: 650px;
+    margin-left: 470px;
+    
+    border-radius: 50%;
+    /*margin-bottom: 20px;*/
+
+    
+}

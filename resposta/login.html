@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/temas.css">        
+        <link rel="shortcut icon" href="./css/favicon.png" />
+        <title>Intranet - Login</title>
+    </head>
+    
+    <body>
+        <h1>.</h1>
+        <div id="login">
+            <form class="card">
+                <div class="card-header">
+                    <h2>Login</h2>
+                </div>
+
+                <div id="username" class="card-content">
+                    <div class="card-content-area">
+                        <label for="username">Colaborador: </label>
+                        <!--<input type="text" id="username" autocomplete="off">-->
+                        <input id="txtUsuario" runat="server" type="text" class="form-control" name="username"  required="" autocomplete="off"/>                                                                                               <!--placeholder="Usuário"-->
+                    </div>
+
+                    <div id="password" class="card-content-area">
+                        <label for="password">Senha: </label>
+                        <!--<input type="password" id="password" autocomplete="off">-->
+                        <input id="txtSenha" runat="server" type="password" class="form-control" name="password"  required="" />                                                                                                  <!--placeholder="Senha"-->
+                    </div>
+                </div>
+
+
+                <div class="card-footer">
+                    <!--<input type="submit" value="login" class="submit">-->
+                    <!--<button id="area" onclick="clicar()"></button>-->
+                    <input class="submit" type="submit" value="Entrar" onclick="return Login()" />
+                    
+                    <!--btn btn-xm btn-block btn-entrar-->
+                    <a href="http://192.168.1.110/ocomon/" class="recuperar_senha" target="_blank">Esqueceu a senha?</a>
+                </div>
+            </form>           
+        </div>
+
+        <!--<div id="testebaixo" style="font-family:Arial, Helvetica, sans-serif;">          
+            <span class="bold">
+                Copyright © 2022 Todos os Direitos Reservados.
+            </span>          
+        </div>-->
+        <script src="../resposta/js/validar.js"></script>
+    </body>
+</html>
+
+<!--Desenvolvido Por José Igor @j.igr-->
