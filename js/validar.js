@@ -31,3 +31,4 @@ function clica (){
 }
 
 var b = document.getElementById("area")*/
+/**/
