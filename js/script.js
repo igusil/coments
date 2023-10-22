@@ -1,5 +1,5 @@
 
-
+/**/
 /* //Função para focar no input name e inserir resposta
 function postReply(commentId) {
 	$('commentId').val(commentId);
